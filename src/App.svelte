@@ -1,4 +1,6 @@
 <script>
+
+import AppHeader from './Header.svelte';
 	let userName = 'Omar';
 	let age = 20;
 	function AddOne(){
@@ -17,6 +19,7 @@ color:purple;
 }
 </style>
 
+<AppHeader></AppHeader>
 
 <h1>Hello {userName}, My age is {age} </h1>
  <!-- <input type="text" class="form-control" placeholder="Username" value="{userName}" on:input="{UpdateUserName}"  >
